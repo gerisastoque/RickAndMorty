@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.post-header{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    font-weight: bolder;
+
+}
+.post-content{
+    font-size: 15px;
+}
+.post-img{
+   border-radius: 150px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
